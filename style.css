@@ -4,10 +4,14 @@ body {
   font-family: Arial, Verdana;
 }
 
-header {
+header,
+footer {
   background-color: #fff;
   box-shadow: 0 0 20px #999;
   padding: 10px;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 nav {
@@ -23,4 +27,29 @@ nav a {
 
 nav a:hover {
   color: #000;
+}
+
+section {
+  width: 70%;
+  float: left;
+}
+
+aside {
+  width: 30%;
+  float: right;
+}
+
+.img {
+  width: 100%;
+  background-color: #ccc;
+}
+
+section,
+aside {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+footer p {
+  text-align: center;
 }
