@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Verdana;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 0 20px #999;
+  padding: 10px;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #ff0000;
+}
+
+nav a:hover {
+  color: #000;
+}
