@@ -12,11 +12,15 @@ header {
 
 nav {
   float: right;
+  margin-top: 25px;
 }
 
 nav a {
-  margin: 15px;
   padding: 10px;
   text-decoration: none;
   color: #ff0000;
+}
+
+nav a:hover {
+  color: #000;
 }
